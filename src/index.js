@@ -1,4 +1,4 @@
-import {backFormData} from './js/feed-back-form.js';
+import {backFormData} from './feed-back-form.js';
 
 
 const feedbackForm = document.getElementById('feedbackForm');
