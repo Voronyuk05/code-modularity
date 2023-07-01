@@ -1,0 +1,68 @@
+* {
+  font-family: Ubuntu;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+body .container {
+  background: #efefef;
+  border: 1px solid #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 1200px;
+  height: 800px;
+  display: flex;
+}
+
+body .container h2 {
+  font-size: 44px;
+}
+
+body .container form {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 480px;
+  display: flex;
+}
+
+body .container form input {
+  border: none;
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 600px;
+  height: 45px;
+  padding: 5px;
+}
+
+body .container form label {
+  width: 600px;
+}
+
+body .container form textarea {
+  border: none;
+  border-radius: 20px;
+  width: 600px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+body .container form .submit {
+  color: #fff;
+  background: #5179ef;
+  border: none;
+  border-radius: 34px;
+  flex-shrink: 0;
+  width: 106px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=index.af20ad6e.css.map */
